@@ -2,6 +2,5 @@ require 'pry'
 
 def catch_phrase
   phrase = "It's-a me, Mario!"
-  puts "#{phrase}"
   binding.pry
 end
